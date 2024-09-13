@@ -23,29 +23,6 @@ Source: http://opensource.org/licenses/GPL-3.0
 from abc import ABC, abstractmethod
 
 
-class AShowCategories(ABC):
-    """
-    Abstract base class for showing categories.
-
-    This class provides an interface for opening and closing categories.
-    """
-
-    @abstractmethod
-    def open_categories(self) -> list:
-        """
-        Opens all categories.
-
-        Returns:
-            List: A list of categories.
-
-        Example:
-            >>> categories = AShowCategories()
-            >>> categories.open_categories()
-            ['Mobile Devices', 'Home Appliances', 'Computers', 'Audio & Accessories', 'Entertainment & Gaming']
-        """
-        return
-
-
 class AShoppCart(ABC):
     """
     Abstract base class for a shopping cart.
@@ -108,7 +85,7 @@ SUB_CATEGORIES = {
 }
 
 
-class ShowCategories(AShowCategories):
+class ShowCategories:
     """
     A class to handle category-related functionality.
 
