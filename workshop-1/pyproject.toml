@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "workshop-1"
+version = "1.0"
+description = "A little advanced-programming workshop, consist in a simple CLI app that works like a little e-commerce"
+authors = ["Sebastian <sebastian.avenda32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
