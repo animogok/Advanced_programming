@@ -174,20 +174,25 @@ def main():
             print(organize_list(cart.user_items))
             print(f"Total: {sum(cart.user_total)}")
             shopp_options = int(input("0. Exit\n\tSelect an item: "))
+
             while shopp_options != 0:
-                cart.remove_item(shopp_options)
+                try:
+                    cart.remove_item(shopp_options)
+                except IndexError:
+
+                    print("\nInvalid selection. Please select a valid item number.")
+
                 print(organize_list(cart.user_items))
                 print(f"Total: {sum(cart.user_total)}")
+
                 shopp_options = int(input("\n\tSelect an item: "))
 
-        elif option == 4:  # Shopping Receipt
+        elif option == 4:
             user_cart = cart.user_items
 
-            # Validación de email y user ID
             user_name = input("Your name user: ")
-            user_email = validate_email()  # Usamos la función para validar el email
-            user_id = validate_user_id()  # Usamos la función para validar el ID
-
+            user_email = validate_email()
+            user_id = validate_user_id()
             payment_method = ["Debit card", "Credit card", "Cash"]
             date = datetime.datetime.now()
 
