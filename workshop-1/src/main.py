@@ -68,10 +68,10 @@ def organize_list(iterable: [list | dict]) -> str:  # type: ignore
 
 def validate_email() -> str:
     """
-    Solicita y valida el email del usuario usando expresiones regulares.
+    Request and validate data from the user
 
     Returns:
-        str: Un email válido.
+        str: Valid email.
     """
     while True:
         email = input("Your email user: ")
@@ -84,10 +84,10 @@ def validate_email() -> str:
 
 def validate_user_id() -> int:
     """
-    Solicita y valida el ID del usuario (debe ser un número entero positivo).
+    Request and validate data from the user
 
     Returns:
-        int: Un ID de usuario válido.
+        int: User identification that should be correct
     """
     while True:
         try:
