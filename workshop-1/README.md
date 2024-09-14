@@ -1,11 +1,17 @@
 # ELECTRONIC DEVICE SHOPPING SYSTEM
 
-___
+This Program works like a system for any kind of electronic devices company or bussines, works like an e-commerce application
 
 ## AUTHOR: SEBASTIAN AVENDAÑO RODRIGUEZ
 
-## DATE: 2024-09-13
+### DATE: 2024-09-13
 
 ### VERSION: 1.0
 
-### DESCRIPTION: This program is a simple electronic device shopping system. It allows users to add, remove devices
+### CONTENT
+
+- Classes
+- Documentation
+- Reports
+- How it works?
+- Work flow Examples
