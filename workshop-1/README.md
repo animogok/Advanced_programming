@@ -28,4 +28,4 @@ The classes in this application are few, we can found this classes:
 
 All the documentation can be found on it's own folder located in:<br>
 
-    - [Documentation](https://github.com/animogok/Advanced_programming/tree/main/workshop-1/docs)
+[Documentation](https://github.com/animogok/Advanced_programming/tree/main/workshop-1/docs)
