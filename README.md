@@ -7,7 +7,6 @@ This is the main part of the file where we can found all the upcoming workshops 
 - Sebastian Avendaño Rodriguez<br>
 - Student of system Engineer in the District University Francisco Jose de Caldas.<br>
 - Student ID: 20232020101<br>
-- Student of software analysis and development in SENA institute
 
 ### CONTENT
 - WorkShop1
